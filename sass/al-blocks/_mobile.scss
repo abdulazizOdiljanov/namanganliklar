@@ -1,0 +1,27 @@
+.mobile__container {
+   background-color: #F6F6F9;
+   margin-top: 38px;
+   padding: 19px 37px 0 37px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   min-height: 214px;
+   margin-bottom: 38px;
+
+   .phone {
+      max-width: 700px;
+      display: flex; 
+      align-items: center;
+
+      &__title--text {
+         font-size: 24px;
+         margin-bottom: 10px;
+         line-height: 28.44px;
+         color: #295093;
+      }
+   }
+
+   img {
+      margin-right: 20px;
+   }
+}

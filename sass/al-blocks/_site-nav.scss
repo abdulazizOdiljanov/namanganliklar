@@ -1,0 +1,32 @@
+.navbar {
+   &__list {
+      display: flex;
+      align-items: center;
+   }
+
+   &__item {
+      display: flex;
+      
+      align-items: center;
+
+      img {
+         margin: 0 30px;
+         margin-top: 20px;
+      }
+   }
+
+   .btn {
+      padding: 11px 8px;
+      border-radius: 5px;
+      border: none;
+      background: rgb(55, 174, 226);
+      background: linear-gradient(90deg, rgba(55, 174, 226, 1) 0%, rgba(30, 150, 200, 1) 100%);
+      a {
+         color: $white;
+      }
+
+      i {
+         margin-right: 7.31px;
+      }
+   }
+}

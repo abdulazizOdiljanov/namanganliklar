@@ -1,0 +1,30 @@
+.notifications__container {
+   display: flex;
+   padding: 38px 20px;
+   justify-content: space-between;
+   background-color: #EFBA542E;
+   align-items: center;
+   border-radius: 5px;
+   margin: 34px auto;
+
+   .bell__icon {
+      display: flex;
+      align-items: center;
+
+      img {
+         margin-right: 18px;
+      }
+   }
+
+   .btn {
+      padding: 15px 8px;
+      border-radius: 5px;
+      background-color: #FE5C28;
+      border: none;
+
+      a {
+         color: $white;
+         font-weight: 500;
+      }
+   }
+}

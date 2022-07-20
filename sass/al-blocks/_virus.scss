@@ -1,0 +1,31 @@
+.virus__container {
+   background: #F6F6F9;
+   border-radius: 5px;
+   display: grid;
+   grid-template-columns: 3fr 2fr 2fr 2fr;
+   height: 133px;
+   align-items: center;
+
+   .card {
+      display: flex;
+      padding-left: 35px;
+
+      img {
+         width: 36px;
+         margin-right: 18px;
+      }
+
+      &:nth-child(1) {
+         .card__title--text {
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 25px;
+         }
+
+         img {
+            width: 43px;
+            height: 45px;
+         }
+      }
+   }
+}
